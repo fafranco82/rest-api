@@ -1,0 +1,11 @@
+{
+	"name": "rest-api",
+	"version": "0.0.1",
+	"descripcion": "Rest API",
+	"dependencies": {
+		"express": "~4.1.1",
+		"mongoskin": "~1.4.1",
+		"morgan": "*",
+		"body-parser": "~1.0.2"
+	}
+}
