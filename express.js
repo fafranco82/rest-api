@@ -6,7 +6,7 @@ var app = express();
 
 app.use(bodyParser());
 
-var db = mongoskin.db('mongodb://@localhost:27017/restapi', {safe: false});
+var db = mongoskin.db('mongodb://rest:rest@ds037451.mongolab.com:37451/restapi', {safe: false});
 
 app.use(require("morgan")('dev'));
 
